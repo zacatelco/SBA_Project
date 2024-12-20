@@ -1,0 +1,51 @@
+body {
+  padding: 0 5%;
+}
+
+main {
+  margin: 3%;
+  /* border: 2px solid red; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 2px solid blue; */
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+#tableTitle{
+  text-align: center;
+}
+
+.titleDiv{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
+#price{
+  font-size: 10px;
+  text-align: right;
+}
